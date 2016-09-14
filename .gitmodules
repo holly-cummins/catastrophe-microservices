@@ -1,0 +1,15 @@
+[submodule "catastrophe-users"]
+	path = catastrophe-users
+	url = ../catastrophe-users
+[submodule "catastrophe-web"]
+	path = catastrophe-web
+	url = ../catastrophe-web
+[submodule "catastrophe-cats"]
+	path = catastrophe-cats
+	url = ../catastrophe-cats
+[submodule "catastrophe-interfaces"]
+	path = catastrophe-interfaces
+	url = ../catastrophe-interfaces
+[submodule "catastrophe-scoring"]
+	path = catastrophe-scoring
+	url = ../catastrophe-scoring
