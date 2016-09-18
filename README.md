@@ -1,14 +1,17 @@
 # Cat-astrophe Microservices Sample
-# cats Service
 
 
 # About this sample
 
-This sample is one microservice in a [larger sample 
-microservices application](http://github.com/holly-cummins/catastrophe-microservices). If you’re wondering about the names – all good internet content involves cats. This sample was written
+This sample is an application composed of  microservices. If you’re wondering about the names – all good internet content involves cats. This sample was written
 to be used as a live demo, and I have some experience of live demos, so I called it – of course – cat-astrophe. 
 
-This service stores information about cats. 
+The following projects comprise this application: 
+
+* [A web front end, catastrophe-web](http://github.com/holly-cummins/catastrophe-web)
+* [A persistent store of user information, catastrophe-users](http://github.com/holly-cummins/catastrophe-users)
+* [A cat scoring service, catastrophe-scoring](http://github.com/holly-cummins/catastrophe-scoring)
+* [A cat repository, catastrophe-cats](http://github.com/holly-cummins/catastrophe-cats)
 
 This application is designed to run on a [raspberry pi](http://www.linksprite.com/linksprite-pcduino/) (and optionally [Bluemix](http://bluemix.net)), and runs on [WebSphere Liberty](http://wasdev.net). 
 
@@ -16,35 +19,7 @@ This application is designed to run on a [raspberry pi](http://www.linksprite.co
 
 ## Getting started 
 
-### Eclipse integration 
-
-To set up Eclipse projects, run 
-
-    gradle clean
-    gradle eclipse
-
-### Running the server locally (from the command line) 
-
-Run
-
-    gradle runServer
-
-The application should be available on http://localhost:9080.
-
-### Deploying to a single board computer 
-
-To create a zip with the application and all dependencies (including the server), run 
-
-    gradle packageServer
-
-
-### Deploying to Bluemix 
-
-To create a war, run `gradle` from the catastrophe-cats folder.
-
-This can then be pushed to Bluemix with 
-
-    cf push -p build/libs/catastrophe-cats.war
+Cloning this project should clone each constituent microservice. Each one has a gradle build and a deploy to bluemix button on the the README. 
 
 # Dependencies 
 
