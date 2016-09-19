@@ -15,7 +15,7 @@ The following projects comprise this application:
 
 Service discovery is handled by [a Liberty extension which automatically registers services](https://github.com/WASdev/sample.consulservicediscovery) with [a Consul service registry](https://www.consul.io). 
 
-![catastrophearchitecture.png](High-level application architecture) 
+![/catastrophearchitecture.png](High-level application architecture) 
 
 This application is designed to run on a [raspberry pi](http://www.linksprite.com/linksprite-pcduino/) (and optionally [Bluemix](http://bluemix.net)), and runs on [WebSphere Liberty](http://wasdev.net). 
 
